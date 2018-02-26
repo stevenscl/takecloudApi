@@ -18,7 +18,6 @@
         "theme-comscore",
         "tbfed-pagefooter",
         "github",
-        "anchor-navigation-ex",
         "codeblock-filename",
         "expandable-chapters-small"
     ],
@@ -30,13 +29,6 @@
             "copyright":"Copyright © 2017 Takecloud Inc.上海微庚信息科技有限公司",
             "modify_label": "该文件修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
-        },
-        "anchor-navigation-ex": {
-            "isRewritePageTitle": false,
-            "isShowTocTitleIcon": false,
-            "tocLevel1Icon": "fa fa-hand-o-right",
-            "tocLevel2Icon": "fa fa-hand-o-right",
-            "tocLevel3Icon": "fa fa-hand-o-right"
         }
     }
 }
