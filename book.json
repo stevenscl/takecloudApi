@@ -1,82 +1,11 @@
 {
-   {
-"author": "steven",
-"description": "乘云开放平台文档",
-"extension": null,
-"generator": "site",
-"language": "zh-hans",
-"isbn": "",
-"links": {
-"sharing": {
-"all": null,
-"facebook": null,
-"google": null,
-"twitter": null,
-"weibo": null
-},
-"sidebar": {
-"官方网站": "http://www.takecloud.cn"
-}
-},
-"output": null,
-"pdf": {
-"fontSize": 12,
-"footerTemplate": null,
-"headerTemplate": null,
-"margin": {
-"bottom": 36,
-"left": 62,
-"right": 62,
-"top": 36
-},
-"pageNumbers": false,
-"paperSize": "a4"
-},
-"plugins": [
-"-lunr",
-"-search",
-"-highlight",
-"prism",
-"search-plus",
-"theme-comscore",
-"toggle-chapters",
-"codeblock-filename",
-"splitter",
-"tbfed-pagefooter",
-"anchor-navigation-ex",
-"expandable-chapters-small",
-"sectionx",
-"disqus"
-],
-"pluginsConfig": {
-"prism": {
-"css": [
-"prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
-]
-},
-"tbfed-pagefooter": {
-"copyright":"Copyright © 2017 Takecloud Inc.上海微庚信息科技有限公司 all right reserved",
-"modify_label": "该文件修订时间：",
-"modify_format": "YYYY-MM-DD HH:mm:ss"
-},
-"anchor-navigation-ex": {
-"isRewritePageTitle": true,
-"isShowTocTitleIcon": true,
-"tocLevel1Icon": "fa fa-hand-o-right",
-"tocLevel2Icon": "fa fa-hand-o-right",
-"tocLevel3Icon": "fa fa-hand-o-right"
-},
-"sectionx": {
-"tag": "b"
-},
-"disqus": {
-"shortName": "yourshorName"
-}
-},
-"title": "test book",
-"variables": {},
-"theme-default": {
-"showLevel": true
-}
-}
+"title": "XXX",
+    "description": "XXX",
+    "plugins": [
+        "splitter",
+        "expandable-chapters",
+        "popup"
+    ],
+    "pluginsConfig": {
+    }
 }
