@@ -18,16 +18,19 @@
         "theme-comscore",
         "toggle-chapters",
         "codeblock-filename",
-        "splitter",
         "tbfed-pagefooter",
         "anchor-navigation-ex",
-        "expandable-chapters-small",
         "sectionx",
         "github"
     ],
     "pluginsConfig": {
         "github": {
             "url": "https://github.com/takecloud/takecloudapi-sdk-php"
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright © 2017 Takecloud Inc.上海微庚信息科技有限公司",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
         }
     }
 }
