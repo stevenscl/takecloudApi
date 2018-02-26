@@ -20,7 +20,8 @@
         "codeblock-filename",
         "tbfed-pagefooter",
         "anchor-navigation-ex",
-        "github"
+        "github",
+        "expandable-chapters-small"
     ],
     "pluginsConfig": {
         "github": {
