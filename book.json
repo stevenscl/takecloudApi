@@ -1,6 +1,6 @@
 {
-"title": "XXX",
-    "description": "XXX",
+    "title": "乘云开放平台",
+    "description": "乘云开放平台文档",
     "plugins": [
         "splitter",
         "expandable-chapters",
