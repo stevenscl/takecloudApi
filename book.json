@@ -10,9 +10,7 @@
     },
     "plugins": [
         "github",
-        "splitter",
-        "expandable-chapters",
-        "popup"
+        "expandable-chapters"
     ],
     "pluginsConfig": {
         "github": {
