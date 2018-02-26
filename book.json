@@ -9,13 +9,25 @@
         }
     },
     "plugins": [
-        "github",
-        "expandable-chapters"
+        "-lunr",
+        "-search",
+        "-highlight",
+        "-sharing",
+        "prism",
+        "search-pro",
+        "theme-comscore",
+        "toggle-chapters",
+        "codeblock-filename",
+        "splitter",
+        "tbfed-pagefooter",
+        "anchor-navigation-ex",
+        "expandable-chapters-small",
+        "sectionx",
+        "github"
     ],
     "pluginsConfig": {
         "github": {
             "url": "https://github.com/takecloud/takecloudapi-sdk-php"
-        },
-        "expandable-chapters":{}
+        }
     }
 }
