@@ -1,11 +1,23 @@
 {
-    "title": "乘云开放平台",
-    "description": "乘云开放平台文档",
+    "title": "乘云开放平台文档",
+    "description": "乘云开放平台使用教程",
+    "author": "takecloud",
+    "language": "zh-hans",
+    "links": {
+        "sidebar": {
+            "官方网站": "http://www.takecloud.cn"
+        }
+    },
     "plugins": [
+        "github",
         "splitter",
         "expandable-chapters",
         "popup"
     ],
     "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/takecloud/takecloudapi-sdk-php"
+        },
+        "expandable-chapters":{}
     }
 }
