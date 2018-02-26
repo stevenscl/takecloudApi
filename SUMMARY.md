@@ -5,13 +5,13 @@
 * [调用示例](diao-yong-shi-li.md)
 * [调用方法](diao-yong-fang-fa.md)
   * [请求结构](diao-yong-fang-fa/qing-qiu-jie-gou.md)
-  * 公共参数
-  * 接口鉴权
-  * 示例代码
-  * 返回结果
+  * [公共参数](diao-yong-fang-fa/gong-gong-can-shu.md)
+  * [接口鉴权](diao-yong-fang-fa/jie-kou-jian-quan.md)
+  * [示例代码](diao-yong-fang-fa/shi-li-dai-ma.md)
+  * [返回结果](diao-yong-fang-fa/fan-hui-jie-guo.md)
 * [商品相关接口](shang-pin-xiang-guan-jie-kou.md)
-  * 查看商品列表
-  * 查看商品详情
-  * 查看商品多级分类
-* 订单相关接口
+  * [查看商品列表](shang-pin-xiang-guan-jie-kou/cha-kan-shang-pin-lie-biao.md)
+  * [查看商品详情](shang-pin-xiang-guan-jie-kou/cha-kan-shang-pin-xiang-qing.md)
+  * [查看商品多级分类](shang-pin-xiang-guan-jie-kou/cha-kan-shang-pin-duo-ji-fen-lei.md)
+* [订单相关接口](ding-dan-xiang-guan-jie-kou.md)
 
