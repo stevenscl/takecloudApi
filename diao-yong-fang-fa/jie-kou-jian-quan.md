@@ -38,7 +38,5 @@
 >
 > AppSecret:  92a739662d8e0cd0df8c4f70f61919ae
 
-注意：这里只是示例，请根据您实际申请的AppId和AppSecret进行后续操作！
-
-
+**注意：这里只是示例，请根据您实际申请的AppId和AppSecret进行后续操作！**
 
