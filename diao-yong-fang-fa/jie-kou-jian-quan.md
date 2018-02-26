@@ -30,5 +30,15 @@
 
 ## 2. 生成签名串
 
+有了安全凭证 AppId 和 AppSecret 后，就可以生成签名串了，以下是生成签名串的详细过程：
+
+假设你的 AppId 和 AppSecret 分别是：
+
+> AppId:  tc\_5a93848f4e8b4
+>
+> AppSecret:  92a739662d8e0cd0df8c4f70f61919ae
+
+注意：这里只是示例，请根据您实际申请的AppId和AppSecret进行后续操作！
+
 
 
