@@ -86,5 +86,48 @@
 AppId=tc_5a93848f4e8b4&Nonce=112233&Timestamp=1519696701&pageIndex=1&pageSize=10&promote=秒杀#拼团#砍价#无促销&status=待上架#已上架#已下架
 ```
 
+### 2.3. 拼接签名原文字符串
 
+此步骤生成签名原文字符串。
+
+签名原文字符串由以下两个参数构成：
+
+1）API名称：比如示例中的查看商品列表（admin/goods/goodsList）。
+
+2）请求字符串：即上一步生成的请求字符串。
+
+签名原文字符串的拼接规则为：
+
+> API名称 + ? + 请求字符串
+
+示例的拼接结果为：
+
+```
+admin/goods/goodsList?AppId=tc_5a93848f4e8b4&Nonce=112233&Timestamp=1519696701&pageIndex=1&pageSize=10&promote=秒杀#拼团#砍价#无促销&status=待上架#已上架#已下架
+```
+
+### 2.4. 生成签名串
+
+此步骤生成签名串。
+
+首先使用 HMAC-SHA1 算法对上一步中获得的签名原文字符串进行签，然后将生成的签名串使用 Base64 进行编码，即可获得最终的签名串。
+
+
+
+具体代码如下，以 PHP 语言为例：
+
+```php
+$appSecret = '92a739662d8e0cd0df8c4f70f61919ae';
+$srcStr = 'admin/goods/goodsList?AppId=tc_5a93848f4e8b4&Nonce=112233&Timestamp=1519696701&pageIndex=1&pageSize=10&promote=秒杀#拼团#砍价#无促销&status=待上架#已上架#已下架';
+$signStr = base64_encode(hash_hmac('sha1', $srcStr, $appSecret, true));
+echo $signStr;
+```
+
+最终得到的签名串为：
+
+```
+vx5d3KGOSD6HvGzOQ15WsBnIXAY=
+```
+
+使用其它程序设计语言开发时, 可用上面示例中的原文进行签名验证, 得到的签名串与例子中的一致即可。
 
