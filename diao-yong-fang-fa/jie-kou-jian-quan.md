@@ -40,7 +40,7 @@
 
 **注意：这里只是示例，请根据您实际申请的AppId和AppSecret进行后续操作！**
 
-以查看商品列表（admin/goods/goodsList）接口为例，当用户调用这一接口时，其请求的参数可能如下：
+以[查看商品列表](/shang-pin-xiang-guan-jie-kou/cha-kan-shang-pin-lie-biao.md)（admin/goods/goodsList）接口为例，当用户调用这一接口时，其请求的参数可能如下：
 
 | 参数名称 | 描述 | 参数值 |
 | :--- | :--- | :--- |

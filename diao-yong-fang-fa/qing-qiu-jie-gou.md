@@ -16,7 +16,7 @@
 
 | 名称 | 描述 | 备注 |
 | :--- | :--- | :--- |
-| API名称 | API名称，如 admin/goods/goodsList | 详见 [API概览](/apigai-lan.md) |
+| API名称 | API名称，如 [admin/goods/goodsList](/shang-pin-xiang-guan-jie-kou/cha-kan-shang-pin-lie-biao.md) | 详见 [API概览](/apigai-lan.md) |
 | 公共参数 | 每个接口都包含的通用参数 | 详见 [公共参数](/diao-yong-fang-fa/gong-gong-can-shu.md) 页面 |
 | 请求参数 | 每个接口请求所需的参数 | 详见每个接口的说明 |
 
