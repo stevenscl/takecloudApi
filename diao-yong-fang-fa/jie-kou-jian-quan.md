@@ -22,7 +22,7 @@
 
 2）前往系统设置 &gt; 开放平台页面
 
-![](/assets/jianquan1.png)
+
 
 3）在开放平台页面，点击【添加APP】即可以创建一对AppId / AppSecret
 
