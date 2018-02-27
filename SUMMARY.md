@@ -2,7 +2,6 @@
 
 * [简介](README.md)
 * [API概览](apigai-lan.md)
-* [调用示例](diao-yong-shi-li.md)
 * [调用方法](diao-yong-fang-fa.md)
   * [请求结构](diao-yong-fang-fa/qing-qiu-jie-gou.md)
   * [公共参数](diao-yong-fang-fa/gong-gong-can-shu.md)
