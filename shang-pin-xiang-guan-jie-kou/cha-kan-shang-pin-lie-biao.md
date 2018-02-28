@@ -12,6 +12,8 @@
 | pageSize | Integer | 否 | 分页参数：页长（默认为10） |
 | status | String | 是 | 商品状态，可选状态有：**待上架、已上架、已下架**，如需筛选多个**请用\#分开**。例如：获取全部状态的商品  **待上架\#已上架\#已下架** |
 | promote | String | 是 | 商品促销状态，可选促销状态有：**秒杀、拼团、砍价、无促销**，如需筛选多个**请用\#分开**。例如：获取全部促销状态的商品 **秒杀\#拼团\#砍价\#无促销** |
+| cid | Integer | 否 | 一级分类Id，获取分类Id，参见 [查看商品多级分类 ](/shang-pin-xiang-guan-jie-kou/cha-kan-shang-pin-duo-ji-fen-lei.md)接口 |
+| ccid | Integer | 否 | 二级分类Id，获取分类Id，参见[ 查看商品多级分类](/shang-pin-xiang-guan-jie-kou/cha-kan-shang-pin-duo-ji-fen-lei.md) 接口 |
 
 ## 3. 输出参数
 
@@ -22,7 +24,7 @@
 
 ## 4. 错误返回
 
-无
+详见错误描述。
 
 ## 5. 示例
 
