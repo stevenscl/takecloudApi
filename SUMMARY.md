@@ -1,6 +1,7 @@
 # Summary
 
 * [简介](README.md)
+* [更新日志](geng-xin-ri-zhi.md)
 * [API概览](apigai-lan.md)
 * [调用方法](diao-yong-fang-fa.md)
   * [请求结构](diao-yong-fang-fa/qing-qiu-jie-gou.md)
