@@ -41,15 +41,15 @@ https://weapp.takecloud.cn/admin/order/orderList?pageIndex=1
     "data": {
         "orders": [
             {
-                "id": "2674",
-                "ordersn": "C227132949919372",
-                "beid": "53",
-                "price": "0.01",
-                "status": "1",
-                "paytype": "0",
-                "paytypename": "微信支付",
-                "remark": "",
-                "addressid": "585",
+                "id": "2674",    // 订单Id
+                "ordersn": "C227132949919372",    // 订单编号
+                "beid": "53",    // 小程序Id
+                "price": "0.01",    // 订单总价
+                "status": "1",    // 订单状态
+                "paytype": "0",    // 支付方式 0 微信支付 1 支付宝支付 2 线下支付
+                "paytypename": "微信支付",    // 支付方式名称
+                "remark": "",    // 订单用户备注
+                "addressid": "585",    // 
                 "dispatch": "0",
                 "dispatch_name": "圆通速递-订单满包邮",
                 "dispatchprice": "0.00",
