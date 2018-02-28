@@ -47,7 +47,7 @@ https://weapp.takecloud.cn/admin/goods/goodsList?pageIndex=1
             {
                 "id": "2562",    // 商品Id
                 "thumb": {    // 商品封面图
-                    "url": "https://weapp-1253522117.image.myqcloud.com//image/20180124/7c362490cc2711a3.png",
+                    "url": "https://weapp-1253522117.image.myqcloud.com//image/20180124/7c362490cc2711a3.png",    // 封面图URL
                     "id": "15920"
                 },
                 "beid": "53",    // 小程序Id
@@ -75,8 +75,8 @@ https://weapp.takecloud.cn/admin/goods/goodsList?pageIndex=1
                 },
                 "childCategory": null,    // 商品子分类 没有则为 null
                 "brand": {    // 商品品牌 没有则为 null
-                    "name": "品牌名称",
-                    "id": "39"
+                    "name": "品牌名称",    // 品牌名称
+                    "id": "39"    // 品牌Id
                 }
             },
             ...
