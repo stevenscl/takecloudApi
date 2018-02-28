@@ -45,14 +45,13 @@ https://weapp.takecloud.cn/admin/order/orderList?pageIndex=1
                 "ordersn": "C227132949919372",    // 订单编号
                 "beid": "53",    // 小程序Id
                 "price": "0.01",    // 订单总价
-                "status": "1",    // 订单状态
+                "status": "1",    // 订单状态 详见 附录 > 各类型小程序订单状态
                 "paytype": "0",    // 支付方式 0 微信支付 1 支付宝支付 2 线下支付
                 "paytypename": "微信支付",    // 支付方式名称
                 "remark": "",    // 订单用户备注
-                "addressid": "585",    // 
-                "dispatch": "0",
-                "dispatch_name": "圆通速递-订单满包邮",
-                "dispatchprice": "0.00",
+                "addressid": "585",    // 用户地址信息Id
+                "dispatch_name": "圆通速递-订单满包邮",    // 下单用户选择快递名称
+                "dispatchprice": "0.00",    // 下单用户选择快递价格
                 "createtime": "2018-02-27 14:34:55",    // 订单创建时间
                 "address_address": "剑川路951号零号湾科技大楼",    // 收货详细地址
                 "address_area": "闵行区",    // 收货地址，区级
@@ -61,8 +60,8 @@ https://weapp.takecloud.cn/admin/order/orderList?pageIndex=1
                 "address_realname": "帅哥",    // 收货人名称
                 "address_mobile": "11466757741",    // 收货人联系方式
                 "openid": "onzUY0Y1GBD6KaYSzKwr7tlQBv7s",    // 下单微信用户openId
-                "order_type": "1",    // 订单类型
-                "desk_num": "0",    // 如果是餐饮订单，表示桌号，否则为 0
+                "order_type": "1",    // 订单类型 1 商城订单 2 店内点单订单 3 外卖订单 4 流水订单 5 酒店订单
+                "desk_num": "0",    // 如果是店内点单订单，表示桌号，否则为 0
                 "statusName": "待发货",    // 订单状态名称
                 "nickname": "Kingslayer"    // 下单微信用户昵称
             },
