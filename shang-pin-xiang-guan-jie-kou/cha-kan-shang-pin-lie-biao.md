@@ -69,10 +69,13 @@ https://weapp.takecloud.cn/admin/goods/goodsList?pageIndex=1
                 "status": "1",    // 商品状态 0 待上架 1 已上架 2 已下架 
                 "displayorder": "100",    // 商品显示排序
                 "category": {    // 商品分类
-                    "name": "香菜测试",
-                    "id": "1258"
+                    "name": "香菜测试",    // 分类名称
+                    "id": "1258"    // 分类Id
                 },
-                "childCategory": null,    // 商品子分类 没有则为 null
+                "childCategory": {    // 商品所属的二级分类，如没有则为 NULL
+                    "name": "乘云小程序",    // 二级分类名称
+                    "id": "1204"    // 二级分类Id
+                },
                 "brand": {    // 商品品牌 没有则为 null
                     "name": "品牌名称",    // 品牌名称
                     "id": "39"    // 品牌Id
