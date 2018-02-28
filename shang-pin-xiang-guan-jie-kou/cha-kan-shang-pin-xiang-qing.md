@@ -49,15 +49,15 @@ https://weapp.takecloud.cn/admin/goods/detail?goodsId=2562
         "beid": "53",    // 小程序Id
         "goodssn": "G531517996292",    // 商品编号
         "pcate": "1258",    // 一级分类Id
-        "ccate": "0",    // 二级分类，如没有则为0
+        "ccate": "0",    // 二级分类Id，如无二级分类则为 0
         "title": "香菜测试拼团",    // 商品名称
         "desc": "",    // 商品描述
         "sales": "8",    // 商品销量
-        "total": "96",    // 商品总量
+        "total": "96",    // 商品库存总量
         "status": "1",    // 商品状态 0 待上架 1 已上架 2 已下架 
-        "totalcnf": "1",    // 库存
+        "totalcnf": "1",    // 库存减扣方式 0 拍下减库存 1 付款减库存 2 永久不减
         "issendfree": "0",    // 是否包邮
-        "express_list": [    // 包邮为空数组，不包邮的快递列表
+        "express_list": [    // 不包邮时的快递列表（如小程序开启了高级快递模板，则这里的快递列表失效）
             {
                 "name": "顺丰快递",    // 快递名称
                 "code": "shunfeng",    // 快递代码
@@ -79,42 +79,107 @@ https://weapp.takecloud.cn/admin/goods/detail?goodsId=2562
         "timeend": "0",    // 限时秒杀结束时间
         "brand_id": "39",    // 品牌Id
         "isGroupBuy": "0",    // 是否是拼团商品
-        "effectiveTime": "1",    
+        "effectiveTime": "1",    // 成团有效时间
         "groupbuyPrice": "0.01",    // 拼团价格
-        "limitNum": "1",    // 
+        "limitNum": "1",    // 拼团砍价时限制购买的数量
         "is_bargain": "1",    // 是否是砍价商品
-        "bargain_time": "1",    // 砍价持续时间
+        "bargain_time": "1",    // 砍价的持续时间
         "bargain_price": "0.01",    // 砍价的最终价格
         "specs": {    // 商品多规格，如不是多规格商品则为NULL
-            "types": [
+            "types": [    // 规格列表
                 {
-                    "title": "包装",
-                    "id": "129",
+                    "title": "包装",  // 规格名称  
+                    "id": "129",    // 规格Id
+                    "items": [    // 规格项列表
+                        {
+                            "id": "240",    // 规格项Id
+                            "title": "大"    // 规格项名称
+                        },
+                        {
+                            "id": "1614",
+                            "title": "小"
+                        }
+                    ]
+                },
+                {
+                    "title": "颜色",
+                    "id": "474",
                     "items": [
                         {
-                            "id": "240",
-                            "title": "黄、蓝"
+                            "id": "1615",
+                            "title": "红"
+                        },
+                        {
+                            "id": "1616",
+                            "title": "绿"
                         }
                     ]
                 }
             ],
-            "options": [
+            "options": [    // 由各个规格项组成的可供选择的规则（规格项的笛卡尔积）
                 {
-                    "id": "2977",
-                    "title": "黄、蓝",
+                    "id": "2996",
+                    "title": "大+红",
                     "option_thumb_url": "",
                     "option_thumb_id": null,
-                    "productprice": "0.01",
-                    "marketprice": "10.00",
-                    "stock": "10", // 库存
-                    "weight": "10.00",
-                    "specs": "240",
+                    "thumb": "",
+                    "productprice": "10.00",
+                    "marketprice": "100.00",
+                    "costprice": "0.00",
+                    "stock": "1",
+                    "weight": "1.00",
+                    "sku": "",
+                    "specs": "240_1615",
+                    "skucode": null,
+                    "enable": "1"
+                },
+                {
+                    "id": "2997",
+                    "title": "大+绿",
+                    "option_thumb_url": "",
+                    "option_thumb_id": null,
+                    "thumb": "",
+                    "productprice": "10.00",
+                    "marketprice": "100.00",
+                    "costprice": "0.00",
+                    "stock": "1",
+                    "weight": "1.00",
+                    "sku": "",
+                    "specs": "240_1616",
+                    "skucode": null,
+                    "enable": "1"
+                },
+                {
+                    "id": "2998",
+                    "title": "小+红",
+                    "option_thumb_url": "",
+                    "option_thumb_id": null,
+                    "thumb": "",
+                    "productprice": "10.00",
+                    "marketprice": "100.00",
+                    "costprice": "0.00",
+                    "stock": "1",
+                    "weight": "1.00",
+                    "sku": "",
+                    "specs": "1614_1615",
+                    "skucode": null,
+                    "enable": "1"
+                },
+                {
+                    "id": "2999",
+                    "title": "小+绿",
+                    "option_thumb_url": "",
+                    "option_thumb_id": null,
+                    "productprice": "10.00",
+                    "marketprice": "100.00",
+                    "stock": "1",
+                    "weight": "1.00",
+                    "specs": "1614_1616",
                     "skucode": null,
                     "enable": "1"
                 }
             ]
-        },
-        "content": "null"
+        }
     }
 }
 ```
