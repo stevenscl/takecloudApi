@@ -30,26 +30,13 @@ https://weapp.takecloud.cn/admin/category/getCategoryWithSons?<公共请求参�
     "msg": "获取类别数据成功",
     "data": [
         {
-            "is_system": "0",
             "beid": "53",
             "id": "35",
-            "category_type": "0",
             "name": "进口大狗粮",
-            "thumb": "",
             "thumb_id": "33",
             "thumb_url": "https://weapp-1253522117.image.myqcloud.com//image/20170607/d3249c451e71f572.png",
-            "detail_image": "",
             "parentid": "0",
-            "isrecommand": "1",
-            "recommand_type": "0",
-            "description": "",
             "displayorder": "6",
-            "area": null,
-            "address": null,
-            "lnglat": null,
-            "services": null,
-            "detail": null,
-            "phone": null,    // 
             "deleted": "0",    // 是否被删除
             "enabled": "1",    // 是否有效
             "create_time": "2017-06-13 10:58:54",    // 分类创建时间

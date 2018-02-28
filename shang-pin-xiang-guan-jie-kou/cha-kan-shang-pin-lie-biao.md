@@ -53,7 +53,6 @@ https://weapp.takecloud.cn/admin/goods/goodsList?pageIndex=1
                 "beid": "53",    // 小程序Id
                 "title": "香菜测试拼团",    // 商品名称
                 "desc": "",    // 商品描述
-                "content": null,
                 "sales": "8",    // 商品销量
                 "total": "96",    // 商品总数
                 "isSendFree": "0",    // 是否包邮

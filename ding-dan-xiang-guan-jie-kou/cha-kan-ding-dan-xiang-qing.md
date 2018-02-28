@@ -77,7 +77,6 @@ https://weapp.takecloud.cn/admin/order/detail?orderId=2674
                 "optionid": "0",
                 "optionname": null,
                 "iscomment": "0",
-                "order_dates": null,
                 "brandName": "品牌名称123"
             }
         ],
@@ -94,9 +93,6 @@ https://weapp.takecloud.cn/admin/order/detail?orderId=2674
         "hasRedPack": 1,
         "statusName": "待发货",
         "goodsTotalMoney": 0.01,
-        "consume_code": false,
-        "coupon_info": [],
-        "distribution_user": false,
         "nickname": "Kingslayer"
     }
 }
