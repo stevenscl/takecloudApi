@@ -53,18 +53,18 @@ https://weapp.takecloud.cn/admin/order/orderList?pageIndex=1
                 "dispatch": "0",
                 "dispatch_name": "圆通速递-订单满包邮",
                 "dispatchprice": "0.00",
-                "createtime": "2018-02-27 14:34:55",
-                "address_address": "剑川路951号零号湾科技大楼",
-                "address_area": "闵行区",
-                "address_city": "上海市",
-                "address_province": "上海市",
-                "address_realname": "帅哥",
-                "address_mobile": "11466757741",
-                "openid": "onzUY0Y1GBD6KaYSzKwr7tlQBv7s",
-                "order_type": "1",
-                "desk_num": "0",
-                "statusName": "待发货",
-                "nickname": "Kingslayer"
+                "createtime": "2018-02-27 14:34:55",    // 订单创建时间
+                "address_address": "剑川路951号零号湾科技大楼",    // 收货详细地址
+                "address_area": "闵行区",    // 收货地址，区级
+                "address_city": "上海市",    // 收货地址，市级
+                "address_province": "上海市",    // 收货地址，省级
+                "address_realname": "帅哥",    // 收货人名称
+                "address_mobile": "11466757741",    // 收货人联系方式
+                "openid": "onzUY0Y1GBD6KaYSzKwr7tlQBv7s",    // 下单微信用户openId
+                "order_type": "1",    // 订单类型
+                "desk_num": "0",    // 如果是餐饮订单，表示桌号，否则为 0
+                "statusName": "待发货",    // 订单状态名称
+                "nickname": "Kingslayer"    // 下单微信用户昵称
             },
             ...
         ],
