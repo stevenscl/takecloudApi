@@ -37,10 +37,10 @@ https://weapp.takecloud.cn/admin/category/getCategoryWithSons?<公共请求参�
             "thumb_url": "https://weapp-1253522117.image.myqcloud.com//image/20170607/d3249c451e71f572.png",
             "parentid": "0",
             "displayorder": "6",
-            "deleted": "0",    // 是否被删除
-            "enabled": "1",    // 是否有效
+            "deleted": "0",    // 是否显示在小程序分类列表内
+            "enabled": "1",    // 是否有效（软删除）
             "create_time": "2017-06-13 10:58:54",    // 分类创建时间
-            "sons": [    // 二级分类 如无二级分类则为 空数组
+            "sons": [    // 二级分类 如无二级分类则为空数组
                 {
                     "is_system": "0",
                     "beid": "53",

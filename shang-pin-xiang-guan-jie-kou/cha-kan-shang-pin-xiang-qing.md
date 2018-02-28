@@ -116,35 +116,29 @@ https://weapp.takecloud.cn/admin/goods/detail?goodsId=2562
                     ]
                 }
             ],
-            "options": [    // 由各个规格项组成的可供选择的规则（规格项的笛卡尔积）
+            "options": [    // 由各个规格项组成的可供购买选择的规格选项（规格项的笛卡尔积）
                 {
-                    "id": "2996",
-                    "title": "大+红",
-                    "option_thumb_url": "",
-                    "option_thumb_id": null,
-                    "thumb": "",
-                    "productprice": "10.00",
-                    "marketprice": "100.00",
-                    "costprice": "0.00",
+                    "id": "2996",    // 选项Id
+                    "title": "大+红",    // 选项标题用+分隔
+                    "option_thumb_url": "",    // 该规格选项商品的图片URL
+                    "option_thumb_id": null,    // 该规格选项商品的图片Id
+                    "productprice": "10.00",    // 该规格选项的商品销售价格
+                    "marketprice": "100.00",    // 该规格选项的商品市场价格
                     "stock": "1",
-                    "weight": "1.00",
-                    "sku": "",
-                    "specs": "240_1615",
+                    "weight": "1.00",    // 该规格选项的商品重量
+                    "specs": "240_1615",    // 规格项Id组合，用_分隔开
                     "skucode": null,
-                    "enable": "1"
+                    "enable": "1"    // 是否有效（软删除）
                 },
                 {
                     "id": "2997",
                     "title": "大+绿",
                     "option_thumb_url": "",
                     "option_thumb_id": null,
-                    "thumb": "",
                     "productprice": "10.00",
                     "marketprice": "100.00",
-                    "costprice": "0.00",
                     "stock": "1",
                     "weight": "1.00",
-                    "sku": "",
                     "specs": "240_1616",
                     "skucode": null,
                     "enable": "1"
@@ -154,13 +148,10 @@ https://weapp.takecloud.cn/admin/goods/detail?goodsId=2562
                     "title": "小+红",
                     "option_thumb_url": "",
                     "option_thumb_id": null,
-                    "thumb": "",
                     "productprice": "10.00",
                     "marketprice": "100.00",
-                    "costprice": "0.00",
                     "stock": "1",
                     "weight": "1.00",
-                    "sku": "",
                     "specs": "1614_1615",
                     "skucode": null,
                     "enable": "1"
