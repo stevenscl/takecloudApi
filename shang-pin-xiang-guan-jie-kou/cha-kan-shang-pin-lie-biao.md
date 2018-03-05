@@ -75,7 +75,7 @@ https://weapp.takecloud.cn/admin/goods/goodsList?pageIndex=1
                     "id": "1258"    // 分类Id
                 },
                 "childCategory": {    // 商品所属的二级分类，如没有则为 NULL
-                    "name": "乘云小程序",    // 二级分类名称
+                    "name": "小程序",    // 二级分类名称
                     "id": "1204"    // 二级分类Id
                 },
                 "brand": {    // 商品品牌 没有则为 null

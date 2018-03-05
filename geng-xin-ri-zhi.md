@@ -4,7 +4,7 @@
 
 ## 2018-2-28
 
-上线乘云开放平台文档
+上线开放平台文档
 
 * 新增[查看商品列表](/shang-pin-xiang-guan-jie-kou/cha-kan-shang-pin-lie-biao.md)接口
 * 新增[查看商品详情](/shang-pin-xiang-guan-jie-kou/cha-kan-shang-pin-xiang-qing.md)接口
