@@ -1,4 +1,4 @@
 echo 'build...'
 gitbook build
-rm -rf  /c/share/open/*
-cp -R ./_book/* /c/share/open/
+rm -rf  /g/hdm/open/*
+cp -R ./_book/* /g/hdm/open/
