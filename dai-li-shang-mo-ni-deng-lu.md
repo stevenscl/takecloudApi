@@ -2,14 +2,14 @@
 
 ## 1. 接口描述
 
-此接口（admin/order/orderList）用于获取小程序订单列表。
+此接口（admin/user/login）用于代理商用户账号的登录，获取到token。
 
 ## 2. 输入参数
 
 | 参数名称 | 类型 | 是否必选 | 描述 |
 | :--- | :--- | :--- | :--- |
-| pageIndex | Integer | 否 | 分页参数：页号（默认为1） |
-| pageSize | Integer | 否 | 分页参数：页号（默认为10） |
+| mobile | String | 是 | 代理商的手机号 |
+| password | String | 是 | 代理商的密码 |
 
 ## 3. 输出参数
 
