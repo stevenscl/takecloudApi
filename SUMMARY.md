@@ -17,4 +17,6 @@
   * [查看订单列表](ding-dan-xiang-guan-jie-kou/cha-kan-ding-dan-lie-biao.md)
   * [查看订单详情](ding-dan-xiang-guan-jie-kou/cha-kan-ding-dan-xiang-qing.md)
   * [附录](ding-dan-xiang-guan-jie-kou/fu-lu.md)
+* [代理商管理接口](dai-li-shang-guan-li-jie-kou.md)
+  * [代理商模拟登陆](dai-li-shang-mo-ni-deng-lu.md)
 
