@@ -2,7 +2,7 @@
 
 ## 1. 接口描述
 
-此接口（admin/agent/getShopList）用于代理商用户账号的登录，获取到token。
+此接口（admin/agent/getShopList）用于获取当前代理商开通的所有的小程序列表。
 
 ## 2. 输入参数
 
