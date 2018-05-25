@@ -8,8 +8,11 @@
 
 | 参数名称 | 类型 | 是否必选 | 描述 |
 | :--- | :--- | :--- | :--- |
-| mobile | String | 是 | 代理商的手机号 |
-| password | String | 是 | 代理商的密码 |
+| token | String | 是 | 登录获取的token凭证 |
+| name | String | 否 | 小程序名称，可以模糊搜索 |
+| adminMobile | String | 否 | 小程序的管理员手机号，可模糊搜索 |
+| status | Array | 是 | status是个数组，1 使用中 2 已过期 3 运营关闭 |
+| timeRange | Array | 否 | timeRange\[0\]为开始时间，timeRange\[1\]为结束时间 格式为unix时间戳 |
 
 ## 3.输出实例
 

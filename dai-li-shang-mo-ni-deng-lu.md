@@ -19,7 +19,7 @@
     "msg": "获取订单信息成功",
     "data": {
         "uid":123,    // 当前登录的用户ID
-        "username": "skywod",    // 当前代理商的用户名
+        "username": "steven",    // 当前代理商的用户名
         "mobile":"18502115000"    // 当前代理商的手机号
         "token":"a4f48047debbc2dcd768cc925fc9644c"    // 登录成功的token
     }
