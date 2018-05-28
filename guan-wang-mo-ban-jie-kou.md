@@ -1,8 +1,10 @@
+## 1. 接口描述
+
 官网模板接口，直接跨域调用即可获取其相关内容
 
 接口地址：[https://weapp.takecloud.cn/admin/index/getTplList](https://weapp.takecloud.cn/admin/index/getTplList)
 
-接口参数如下：
+## 2. 输入参数
 
 | 参数名称 | 类型 | 是否必选 | 描述 |
 | :--- | :--- | :--- | :--- |
