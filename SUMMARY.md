@@ -20,4 +20,5 @@
 * [代理商管理接口](dai-li-shang-guan-li-jie-kou.md)
   * [代理商登录](dai-li-shang-mo-ni-deng-lu.md)
   * [获取小程序列表](huo-qu-dang-qian-dai-li-shang-xiao-cheng-xu-lie-biao.md)
+* [官网模板接口](guan-wang-mo-ban-jie-kou.md)
 
