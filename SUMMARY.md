@@ -22,5 +22,5 @@
   * [代理商登录](dai-li-shang-mo-ni-deng-lu.md)
   * [获取小程序列表](huo-qu-dang-qian-dai-li-shang-xiao-cheng-xu-lie-biao.md)
   * [添加用户](tian-jia-yong-hu-jie-kou.md)
-* [获取系统价格](huo-qu-dai-li-shang-jia-ge-xin-xi-jie-kou.md)
+  * [获取系统价格](huo-qu-dai-li-shang-jia-ge-xin-xi-jie-kou.md)
 
