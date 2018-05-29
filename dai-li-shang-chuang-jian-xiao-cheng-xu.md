@@ -1,6 +1,6 @@
 ## 1.接口描述
 
-调用该接口获取代理商的信息 /admin/agent/getAgentInfo
+调用该接口获取代理商的信息 /admin/agent/createShop
 
 ## 2. 输入参数
 
