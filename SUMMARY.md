@@ -24,4 +24,5 @@
   * [添加用户](tian-jia-yong-hu-jie-kou.md)
   * [获取系统价格](huo-qu-dai-li-shang-jia-ge-xin-xi-jie-kou.md)
   * [获取代理商信息](huo-qu-dai-li-shang-xin-xi.md)
+  * [代理商创建小程序](dai-li-shang-chuang-jian-xiao-cheng-xu.md)
 
