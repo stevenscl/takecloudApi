@@ -25,4 +25,5 @@
   * [获取系统价格](huo-qu-dai-li-shang-jia-ge-xin-xi-jie-kou.md)
   * [获取代理商信息](huo-qu-dai-li-shang-xin-xi.md)
   * [代理商创建小程序](dai-li-shang-chuang-jian-xiao-cheng-xu.md)
+  * [代理商给小程序续费](dai-li-shang-gei-xiao-cheng-xu-xu-fei.md)
 
