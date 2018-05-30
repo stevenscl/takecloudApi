@@ -1,6 +1,6 @@
 ## 1.接口描述
 
-调用该接口创建一个小程序 /admin/agent/getShopInfo
+调用该接口获取小程序的信息 /admin/agent/getShopInfo
 
 ## 2. 输入参数
 
