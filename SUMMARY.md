@@ -28,4 +28,5 @@
   * [代理商给小程序续费](dai-li-shang-gei-xiao-cheng-xu-xu-fei.md)
   * [获取小程序信息](huo-qu-xiao-cheng-xu-xin-xi.md)
   * [获取小程序的管理URL](huo-qu-xiao-cheng-xu-de-guan-li-url.md)
+  * [修改小程序名称](xiu-gai-xiao-cheng-xu-ming-cheng.md)
 
