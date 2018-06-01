@@ -9,6 +9,7 @@
 | token | String | 是 | 登录获取的token凭证 |
 | username | String | 是 | 用户名（4~32位） |
 | password | String | 是 | 添加用户的密码 |
+| mobile | String | 是 | 用户手机号 |
 
 ## 3. 返回数据
 
