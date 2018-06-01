@@ -18,20 +18,41 @@
 
 ```json
 {
-    "code": 0,
-    "msg": "获取订单信息成功",
-    "data": {
-        "uid":123,    // 当前登录的用户ID
-        "username": "skywod",    // 当前代理商的用户名
-        "mobile":"18502115000"    // 当前代理商的手机号
-        "token":"a4f48047debbc2dcd768cc925fc9644c"    // 登录成功的token
-    }
-}
+	"code": 0,
+	"msg": "获取成功",
+	"data": {
+		"data": [{
+			"id": "907",
+			"shop_name": "手机壳壳",
+			"industry": "",
+			"tag": "",
+			"admin_mobile": "13122255117",
+			"template_id": "0",
+			"new_tpl_id": "531",
+			"begin_time": "1527735365",
+			"end_time": "1559530565",
+			"price": "960",
+			"create_time": "1527735365",
+			"enable": "1",
+			"deleted": "0",
+			"agent_id": "10",
+			"type": "3",
+			"head_shop": "0",
+			"sort": "0",
+			"version": "1",
+			"purchase_channel": "0",
+			"shopName": "手机壳壳",
+			"adminMobile": "13122255117",
+			"createTime": "1527735365",
+			"beginTime": "1527735365",
+			"endTime": "1559530565",
+			"usedDays": 1,
+			"status": 2
+		},
+		……
+	}
+}	
 ```
 
-注意
 
-1、登录之后的token，30天有效，处理的时候，可以本地缓存token，失效之后重新调用登录接口获取
-
-2、token会作为后续接口鉴权使用的凭证
 
