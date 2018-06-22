@@ -1,6 +1,6 @@
 ## 1.接口描述
 
-调用该接口创建一个小程序 /admin/agent/recharge
+调用该接口创建一个小程序 /admin/shop/recharge
 
 ## 2. 输入参数
 
