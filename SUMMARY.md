@@ -20,7 +20,7 @@
 * [官网模板接口](guan-wang-mo-ban-jie-kou.md)
 * [智能表单相关接口](zhi-neng-biao-dan-xiang-guan-jie-kou.md)
   * [获取智能表单列表](zhi-neng-biao-dan-xiang-guan-jie-kou/huo-qu-zhi-neng-biao-dan-lie-biao.md)
-  * 获取智能表单反馈详情
+  * [获取智能表单反馈详情](zhi-neng-biao-dan-xiang-guan-jie-kou/huo-qu-zhi-neng-biao-dan-fan-kui-xiang-qing.md)
 * [代理商管理接口](dai-li-shang-guan-li-jie-kou.md)
   * [代理商登录](dai-li-shang-mo-ni-deng-lu.md)
   * [获取小程序列表](huo-qu-dang-qian-dai-li-shang-xiao-cheng-xu-lie-biao.md)
