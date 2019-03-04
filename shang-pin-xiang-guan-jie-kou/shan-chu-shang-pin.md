@@ -12,9 +12,7 @@
 
 ## 3.输出参数
 
-| 参数名称 | 类型 | 描述 |
-| :--- | :--- | :--- |
-|  |  |  |
+详见输出示例
 
 ## 4.错误返回
 
@@ -25,7 +23,7 @@
 ### 输入
 
 ```json
-https://weapp.takecloud.cn/admin/goods/goodsList?goodsId=6
+https://weapp.takecloud.cn/admin/goods/delGoods?goodsId=6
 ```
 
 ### 输出
