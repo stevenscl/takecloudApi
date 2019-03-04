@@ -2,7 +2,7 @@
 
 ## 1.接口描述
 
-##### 本接口（admin/goods/delGoods）用于获取小程序的商品列表。
+##### 本接口（admin/goods/delGoods）用于删除小程序的商品。
 
 ## 2.输入参数
 
