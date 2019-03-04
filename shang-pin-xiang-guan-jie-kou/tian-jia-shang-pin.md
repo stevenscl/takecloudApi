@@ -17,7 +17,7 @@
 | weight | decimal\(10,2\) | 否 | 商品重量 |
 | type | Integer | 否 | 商品类型\(0为实体，1为虚拟\) |
 | issendfree | Integer | 否 | 是否包邮\(0否1是\) |
-| express\_list | Integer | 否 | 快递列表 |
+| express\_list | String | 否 | 快递列表 |
 | sales | Integer | 否 | 销量 |
 | total | Integer | 否 | 商品总数 |
 | totalcnf | Integer | 否 | 0 拍下立减库存 1 付款减库存 2 永不减库存 |
@@ -47,7 +47,7 @@
 | goods\_banner | Integer | 否 | 商品主图 |
 | goods\_detail\_pic | Integer | 否 | 商品详情图 |
 | brand\_id | brand\_id | 否 | 品牌ID |
-| goods\_type | Integer | 否 | 商品类型0 默认 1 商品 2 菜品 3 内容 |
+| goodsType | Integer | 否 | 商品类型0 默认 1 商品 2 菜品 3 内容 |
 | setting | String | 否 | 展示版底部栏设置 |
 | tags | String | 否 | 商品标签 |
 | has\_vip\_price | Integer | 否 | 是否有会员价 |
