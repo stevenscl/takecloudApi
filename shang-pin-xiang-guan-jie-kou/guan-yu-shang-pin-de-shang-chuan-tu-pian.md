@@ -27,7 +27,7 @@
 ```json
 {
     "code": 0,
-    "msg": "获取商品列表数据成功",
+    "msg": "图片上传成功",
     "data": {
                 "id": "2562",    // 图片Id
                 "url": "https://weapp-1253522117.image.myqcloud.com//image/20180124/7c362490cc2711a3.png",    // 图URL
