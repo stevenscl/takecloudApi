@@ -14,14 +14,7 @@
 | isrecommand | Integer | 否 | 是否推荐到首页\(0否1是\) |
 | thumb\_id | Integer | 否 | 类别封面的Id |
 | displayorder | Integer | 否 | 排序 |
-| deleted | Integer | 否 | 是否删除 |
-| detail\_image | String | 否 | 详情图片 |
-| phone | Integer | 否 | 分店电话 |
-| address | String | 否 | 地址 |
-| lnglat | String | 否 | 经纬度 |
-| services | String | 否 | 服务列表 |
-| detail | String | 否 | 分店详细描述 |
-| area | String | 否 | 地区 |
+| categoryType | Integer | 否 | 类型 |
 | parentid | Integer | 否 | 上级分类ID,0为一级分类 |
 
 ## 3.输出参数
