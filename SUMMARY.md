@@ -18,6 +18,7 @@
   * [添加商品分类](shang-pin-xiang-guan-jie-kou/tian-jia-shang-pin-fen-lei.md)
   * [删除商品分类](shang-pin-xiang-guan-jie-kou/shan-chu-shang-pin-fen-lei.md)
   * [编辑商品分类](shang-pin-xiang-guan-jie-kou/bian-ji-shang-pin-fen-lei.md)
+  * [关于商品的上传图片](shang-pin-xiang-guan-jie-kou/guan-yu-shang-pin-de-shang-chuan-tu-pian.md)
 * [订单相关接口](ding-dan-xiang-guan-jie-kou.md)
   * [查看订单列表](ding-dan-xiang-guan-jie-kou/cha-kan-ding-dan-lie-biao.md)
   * [查看订单详情](ding-dan-xiang-guan-jie-kou/cha-kan-ding-dan-xiang-qing.md)
