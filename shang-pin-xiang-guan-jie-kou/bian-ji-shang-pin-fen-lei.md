@@ -16,6 +16,7 @@
 | displayorder | Integer | 否 | 排序 |
 | categoryType | Integer | 否 | 类型 |
 | parentid | Integer | 否 | 上级分类ID,0为一级分类 |
+| beid | Integer | 是 | 店铺id |
 
 ## 3.输出参数
 

@@ -14,7 +14,7 @@
 | isrecommand | Integer | 是 | 是否推荐到首页\(0否1是\) |
 | thumb\_id | Integer | 是 | 类别封面Id\[参考上传图片\] |
 | displayorder | Integer | 是 | 排序 |
-| categoryType | Integer | 是 | 万能版本 0 默认 1 商品分类 2 菜品分类 3 内容分类 |
+| categoryType | Integer | 是 |  1 商品分类 2 菜品分类 3 内容分类 |
 | parentid | Integer | 否 | 上级分类ID.0为第一级 |
 
 ## 3.输出参数

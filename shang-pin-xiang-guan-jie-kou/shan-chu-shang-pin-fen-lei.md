@@ -10,6 +10,7 @@
 | :--- | :--- | :--- | :--- |
 | cid | Integer | 是 | 分类的id |
 | deleted | Integer | 是 | 是否删除\(1是\) |
+| beid | Integer | 是 | 自己店铺ID |
 
 ## 3.输出参数
 

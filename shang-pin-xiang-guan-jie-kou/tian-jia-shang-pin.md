@@ -10,7 +10,7 @@
 | :--- | :--- | :--- | :--- |
 | goodsid | Integer | 否 | \(如果是编辑商品的信息需要传\) |
 | title | String | 是 | 商品名称 |
-| goodssn | Integer | 是 | 商品唯一编号 |
+| goodssn | Integer | 是 | 商品唯一编号\[不能重复\] |
 | pcate | Integer | 是 | 一级分类id |
 | ccate | Integer | 否 | 二级分类 |
 | marketprice | decimal\(10,2\) | 否 | 市场上的价格 |
@@ -20,37 +20,38 @@
 | issendfree | Integer | 否 | 是否包邮\(0否1是\)\[不包邮的话要填写快递列表\] |
 | express\_list | String | 否 | 快递列表 |
 | sales | Integer | 否 | 销量 |
-| total | Integer | 否 | 商品总数 |
+| total | Integer | 是 | 商品总数 |
 | totalcnf | Integer | 否 | 0 拍下立减库存 1 付款减库存 2 永不减库存 |
 | credit | Integer | 否 | 积分 |
-| hasoption | Integer | 否 | 是否有多规格\(0否1是\)\[多规格商品要填写options\] |
+| hasoption | Integer | 否 | 是否有多规格\(0否1是\)\[是多规格商品的话options和specs也要传\] |
 | option\_desc | String | 否 | 规格描述 |
-| options | String | 否 | 多规格参数 |
+| options | String | 否 | 多规格参数详情\[specs也要一同填写\]\(格式\[{"title":"大","stock":"10","productprice":"20","marketprice":"30","weight":"6","sales":"800"},{"title":"小","stock":"10","productprice":"20","marketprice":"30","weight":"6","sales":"800"}\] |
+| specs | String | 否 | 规格格式\[{"id":0,"name":"大小杯","specItem":\[{"id":0,"title":"大"},{"id":0,"title":"小"}\]}\] |
 | description | Integer | 否 | 商品描述 |
 | superscript | Integer | 否 | 角标 0 未设置 1 新品 2精品 3促销 4 热卖 |
 | isrecommand | Integer | 否 | 是否推荐到首页\(1是0否\) |
 | recommand\_title | String | 否 | 首页推荐的title |
 | recommand\_thumb\_id | Integer | 否 | 首页推荐主图ID |
-| isTime | Integer | 否 | 是否是秒杀0否1是 |
+| isTime | Integer | 否 | 是否秒杀\(0否1是\) |
 | timestart | Integer | 否 | 开始时间\(时间戳\) |
 | timeend | Integer | 否 | 结束时间\(时间戳\) |
 | is\_groupbuy | Integer | 否 | 是否是拼团 |
 | effective\_time | Integer | 否 | 成团的有效时间 |
 | groupbuy\_price | decimal\(10,2\) | 否 | 拼团价格 |
 | limit\_num | Integer | 否 | 拼团限定人数 |
-| is\_bargain | Integer | 否 | 是否是砍价 |
-| bargain\_time | Integer | 否 | 砍价时间\(时间戳\) |
+| is\_bargain | Integer | 否 | 是否是砍价\(0否1是\) |
+| bargain\_time | Integer | 否 | 砍价时间 |
 | bargain\_price | decimal\(10,2\) | 否 | 砍价价格 |
-| sku | Integer | 否 | SKU编码 |
-| displayorder | Integer | 否 | 排序 |
+| sku | Integer | 否 | sku编码 |
+| displayorder | Integer | 否 | 排序数字 |
 | thumb\_id | Integer | 否 | 商品封面图ID |
-| goods\_banner | Integer | 否 | 商品主图 |
-| goods\_detail\_pic | Integer | 否 | 商品详情图 |
-| brand\_id | brand\_id | 否 | 品牌ID |
-| goodsType | Integer | 否 | 商品类型0 默认 1 商品 2 菜品 3 内容 |
+| goods\_banner | String | 否 | 商品主图\(传参格式\[{"id":"235","url":"https://weapp-1253522117.image.myqcloud.com//image/20170607/659998f295422976.jpg","src":null,"isThumb":false}\]\\)  |
+| goods\_detail\_pic | Integer | 否 | 商品详情图\(传参格式\[{"id":"1159120","url":"https://weapp-1253522117.image.myqcloud.com//image/20181214/018662c49a749a05.png","cover":"https://weapp-1253522117.image.myqcloud.com//image/20181214/018662c49a749a05.png?imageView2/1/w/80/h/80","active":false}\\] \) |
+| brand\_id | Integer | 否 | 品牌ID |
+| goodsType | Integer | 是 | 商品类型0 默认 1 商品 2 菜品 3 内容 |
 | setting | String | 否 | 展示版底部栏设置 |
 | tags | String | 否 | 商品标签 |
-| has\_vip\_price | Integer | 否 | 是否有会员价 |
+| has\_vip\_price | Integer | 否 | 是否有会员价\(0否1是\) |
 | vip\_price | double | 否 | 会员价 |
 | is\_virtual\_goods | Integer | 否 | 是否虚拟商品 |
 
@@ -66,7 +67,7 @@
 
 # 5.示例
 
-## 输入
+## 输入\(示例部分参数\)
 
 ```json
 https://weapp.takecloud.cn/admin/goods/saveGoods?beid=64&title=%E8%8B%B9%E6%9E%9C4%E5%8F%B7&goodssn=G8021551840904&pcate=57618&ccate=0&marketprice=200&productprice=600&weight=20&issendfree=1&express_list=&sales=800&total=68&totalcnf=2&hasoption=0&option_desc=%E5%9C%A3%E8%AF%9E%E8%8A%82&description=%E6%98%AF%E6%8F%8F%E8%BF%B0%E5%91%80&superscript=0&isrecommand=1&recommand_title=%E4%B8%BB%E5%9B%BE%E6%A0%87%E9%A2%98&recommand_thumb_id=222&isTime=0&timestart=0&timeend=0&is_groupbuy=0&is_bargain=0&effective_time=0&groupbuy_price=0&limit_num=0&bargain_time=0&bargain_price=0&sku=0&displayorder=2&thumb_id=276&goods_banner=&goods_detail_pic=&brand_id=0&goodsType=1&setting=&tags=&has_vip_price=0&vip_price=0&is_virtual_goods=0&AppId=tc_5c7f30c34a0eb&Nonce=56816&Timestamp=1551848233&Signature=GSYrXAo6v3vsugbtfWPZYH0OGOc%3D

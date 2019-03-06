@@ -2,13 +2,15 @@
 
 ## 1.接口描述
 
-本接口（admin/goods/uploadImg）用于上图分类图片和商品图片。
+本接口（admin/goods/uploadImg）用于上图分类图片和商品图片。     
+
+Content-Type: multipart/form-data;
 
 ## 2.输入参数
 
 | 参数名称 | 类型 | 是否必选 | 描述 |
 | :--- | :--- | :--- | :--- |
-| file | jpg/gif/png/bmp | 是 | 图片文件 |
+| file |  | 是 | 图片文件 |
 | uploadImagesWidth | Integer | 否 | 文件的宽度\(例如2500\) |
 | uploadImagesHeight | Integer | 否 | 文件的高度\(例如1034\) |
 
