@@ -18,7 +18,7 @@
 | weight | decimal\(10,2\) | 否 | 商品重量 |
 | type | Integer | 否 | 详情展示方式\(0富文本1详情图\) |
 | issendfree | Integer | 否 | 是否包邮\(0否1是\)\[不包邮的话要填写快递列表\] |
-| express\_list | String | 否 | 快递列表 |
+| express\_list | String | 否 | 快递列表\[快递信息的获取接口目前不支持\] |
 | sales | Integer | 否 | 销量 |
 | total | Integer | 是 | 商品总数 |
 | totalcnf | Integer | 否 | 0 拍下立减库存 1 付款减库存 2 永不减库存 |
@@ -45,8 +45,8 @@
 | sku | Integer | 否 | sku编码 |
 | displayorder | Integer | 否 | 排序数字 |
 | thumb\_id | Integer | 否 | 商品封面图ID |
-| goods\_banner | String | 否 | 商品主图\(传参格式\[{"id":"235","url":"https://weapp-1253522117.image.myqcloud.com//image/20170607/659998f295422976.jpg","src":null,"isThumb":false}\]\\)  |
-| goods\_detail\_pic | Integer | 否 | 商品详情图\(传参格式\[{"id":"1159120","url":"https://weapp-1253522117.image.myqcloud.com//image/20181214/018662c49a749a05.png","cover":"https://weapp-1253522117.image.myqcloud.com//image/20181214/018662c49a749a05.png?imageView2/1/w/80/h/80","active":false}\\] \) |
+| goods\_banner | String | 否 | 商品主图\(传参格式\[{"id":"235","url":"\[[https://weapp-1253522117.image.myqcloud.com//image/20170607/659998f295422976.jpg","src":null,"isThumb":false}\]\\]\(https://weapp-1253522117.image.myqcloud.com//image/20170607/659998f295422976.jpg","src":null,"isThumb":false}\]\\)\](https://weapp-1253522117.image.myqcloud.com//image/20170607/659998f295422976.jpg","src":null,"isThumb":false}]\]%28https://weapp-1253522117.image.myqcloud.com//image/20170607/659998f295422976.jpg","src":null,"isThumb":false}]\%29\)\) |
+| goods\_detail\_pic | Integer | 否 | 商品详情图\(传参格式\[{"id":"1159120","url":"\[[https://weapp-1253522117.image.myqcloud.com//image/20181214/018662c49a749a05.png","cover":"https://weapp-1253522117.image.myqcloud.com//image/20181214/018662c49a749a05.png?imageView2/1/w/80/h/80","active":false}\\]\(https://weapp-1253522117.image.myqcloud.com//image/20181214/018662c49a749a05.png","cover":"https://weapp-1253522117.image.myqcloud.com//image/20181214/018662c49a749a05.png?imageView2/1/w/80/h/80","active":false}\\)\](https://weapp-1253522117.image.myqcloud.com//image/20181214/018662c49a749a05.png","cover":"https://weapp-1253522117.image.myqcloud.com//image/20181214/018662c49a749a05.png?imageView2/1/w/80/h/80","active":false}\]%28https://weapp-1253522117.image.myqcloud.com//image/20181214/018662c49a749a05.png","cover":"https://weapp-1253522117.image.myqcloud.com//image/20181214/018662c49a749a05.png?imageView2/1/w/80/h/80","active":false}\%29\)\] \) |
 | brand\_id | Integer | 否 | 品牌ID |
 | goodsType | Integer | 是 | 商品类型0 默认 1 商品 2 菜品 3 内容 |
 | setting | String | 否 | 展示版底部栏设置 |
