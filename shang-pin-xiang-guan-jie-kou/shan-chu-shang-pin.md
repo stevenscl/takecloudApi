@@ -20,12 +20,6 @@
 
 ## 5.示例
 
-### 输入
-
-```json
-https://weapp.takecloud.cn/admin/goods/delGoods?goodsId=6
-```
-
 ### 输出
 
 ```json
