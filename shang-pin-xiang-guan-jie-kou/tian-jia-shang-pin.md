@@ -24,8 +24,8 @@
 | totalcnf | Integer | 否 | 0 拍下立减库存 1 付款减库存 2 永不减库存 |
 | credit | Integer | 否 | 积分 |
 | hasoption | Integer | 否 | 是否有多规格\(0否1是\)\[多规格商品要填写options\] |
-| option\_desc | String | 否 | 多规格描述 |
-| options | String | 否 | 多规格参数比如\[{"title":"大","stock":"21","productprice":"10","marketprice":"10","weight":"12","sales":"13"},{"title":"小","stock":"21","productprice":"10","marketprice":"10","weight":"12","sales":"13"}\] |
+| option\_desc | String | 否 | 规格描述 |
+| options | String | 否 | 多规格参数 |
 | description | Integer | 否 | 商品描述 |
 | superscript | Integer | 否 | 角标 0 未设置 1 新品 2精品 3促销 4 热卖 |
 | isrecommand | Integer | 否 | 是否推荐到首页\(1是0否\) |
@@ -35,7 +35,6 @@
 | timestart | Integer | 否 | 开始时间\(时间戳\) |
 | timeend | Integer | 否 | 结束时间\(时间戳\) |
 | is\_groupbuy | Integer | 否 | 是否是拼团 |
-| is\_bargain | Integer | 否 | 是否是砍价 |
 | effective\_time | Integer | 否 | 成团的有效时间 |
 | groupbuy\_price | decimal\(10,2\) | 否 | 拼团价格 |
 | limit\_num | Integer | 否 | 拼团限定人数 |
@@ -66,6 +65,12 @@
 ##### 详见错误描述
 
 # 5.示例
+
+## 输入
+
+```json
+https://weapp.takecloud.cn/admin/goods/saveGoods?beid=64&title=%E8%8B%B9%E6%9E%9C4%E5%8F%B7&goodssn=G8021551840904&pcate=57618&ccate=0&marketprice=200&productprice=600&weight=20&issendfree=1&express_list=&sales=800&total=68&totalcnf=2&hasoption=0&option_desc=%E5%9C%A3%E8%AF%9E%E8%8A%82&description=%E6%98%AF%E6%8F%8F%E8%BF%B0%E5%91%80&superscript=0&isrecommand=1&recommand_title=%E4%B8%BB%E5%9B%BE%E6%A0%87%E9%A2%98&recommand_thumb_id=222&isTime=0&timestart=0&timeend=0&is_groupbuy=0&is_bargain=0&effective_time=0&groupbuy_price=0&limit_num=0&bargain_time=0&bargain_price=0&sku=0&displayorder=2&thumb_id=276&goods_banner=&goods_detail_pic=&brand_id=0&goodsType=1&setting=&tags=&has_vip_price=0&vip_price=0&is_virtual_goods=0&AppId=tc_5c7f30c34a0eb&Nonce=56816&Timestamp=1551848233&Signature=GSYrXAo6v3vsugbtfWPZYH0OGOc%3D
+```
 
 ### 输出
 
