@@ -18,7 +18,7 @@
 | weight | decimal\(10,2\) | 否 | 商品重量 |
 | type | Integer | 否 | 详情展示方式\(0富文本1详情图\) |
 | issendfree | Integer | 否 | 是否包邮\(0否1是\)\[不包邮的话要填写快递列表\] |
-| express\_list | String | 否 | 快递列表例如\[{"name":"百世快递","code":"HTKY","price":"5"}\] |
+| express\_list | String | 否 | 快递列表 |
 | sales | Integer | 否 | 销量 |
 | total | Integer | 否 | 商品总数 |
 | totalcnf | Integer | 否 | 0 拍下立减库存 1 付款减库存 2 永不减库存 |
