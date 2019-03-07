@@ -45,14 +45,14 @@
 | sku | Integer | 否 | sku编码 |
 | displayorder | Integer | 否 | 排序数字 |
 | thumb\_id | Integer | 否 | 商品封面图ID |
-| goods\_banner | String | 否 | 商品主图\(传参格式\[{"id":"1292269","url":"https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png","cover":"https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png?imageView2/1/w/80/h/80","active":false,"isThumb":true}\]\) |
-| goods\_detail\_pic | Integer | 否 | 商品详情图\(格式\[{"id":"1325577","url":"https://weapp-1253522117.image.myqcloud.com//image/20190222/26d86cf09c3a6984.jpg","cover":"https://weapp-1253522117.image.myqcloud.com//image/20190222/26d86cf09c3a6984.jpg?imageView2/1/w/80/h/80","active":false}\]\) |
+| goods\_banner | String | 否 | 商品主图\(传参格式\[{"id":"1292269","url":"[https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png","cover":"https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png?imageView2/1/w/80/h/80","active":false,"isThumb":true}\](https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png","cover":"https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png?imageView2/1/w/80/h/80","active":false,"isThumb":true}\)\] |
+| goods\_detail\_pic | String | 否 | 商品详情图\(格式同上\) |
 | brand\_id | Integer | 否 | 品牌ID |
-| goodsType | Integer | 是 | 商品类型0 默认 1 商品 2 菜品 3 内容 |
+| goodsType | Integer | 是 | 商品类型\(1商品2菜品3内容\) |
 | setting | String | 否 | 展示版底部栏设置 |
 | tags | String | 否 | 商品标签 |
 | has\_vip\_price | Integer | 否 | 是否有会员价\(0否1是\) |
-| vip\_price | double | 否 | 会员价 |
+| vip\_price | double  | 否 | 会员价 |
 | is\_virtual\_goods | Integer | 否 | 是否虚拟商品 |
 
 ## 3.输出参数
