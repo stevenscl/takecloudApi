@@ -10,11 +10,11 @@
 | :--- | :--- | :--- | :--- |
 | cid | Integer | 是 | 分类的ID |
 | name | String | 否 | 分类的名字 |
-| enable | Integer | 否 | 是否有效 |
+| enabled | Integer | 否 | 是否有效 |
 | isrecommand | Integer | 否 | 是否推荐到首页\(0否1是\) |
 | thumb\_id | Integer | 否 | 类别封面的Id |
 | displayorder | Integer | 否 | 排序 |
-| categoryType | Integer | 否 | 类型 |
+| categoryType | Integer | 否 | 类型\(1商品2菜品3内容\) |
 | parentid | Integer | 否 | 上级分类ID,0为一级分类 |
 | beid | Integer | 是 | 店铺id |
 

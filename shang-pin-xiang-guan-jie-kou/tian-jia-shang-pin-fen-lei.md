@@ -9,12 +9,12 @@
 | 参数名称 | 类型 | 是否必填 | 描述 |
 | :--- | :--- | :--- | :--- |
 | name | String | 是 | 分类的名称 |
-| enable | Integer | 是 | 是否有效 |
+| enabled | Integer | 是 | 是否有效 |
 | beid | Integer | 是 | 自己店铺的id |
 | isrecommand | Integer | 是 | 是否推荐到首页\(0否1是\) |
 | thumb\_id | Integer | 是 | 类别封面Id\[参考上传图片\] |
 | displayorder | Integer | 是 | 排序 |
-| categoryType | Integer | 是 |  1 商品分类 2 菜品分类 3 内容分类 |
+| categoryType | Integer | 是 | 1 商品分类 2 菜品分类 3 内容分类 |
 | parentid | Integer | 否 | 上级分类ID.0为第一级 |
 
 ## 3.输出参数
