@@ -9,7 +9,7 @@
 | 参数名称 | 类型 | 是否必填 | 描述 |
 | :--- | :--- | :--- | :--- |
 | name | String | 是 | 分类的名称 |
-| enabled | Integer | 是 | 是否有效 |
+| enable | Integer | 是 | 是否有效 |
 | beid | Integer | 是 | 自己店铺的id |
 | isrecommand | Integer | 是 | 是否推荐到首页\(0否1是\) |
 | thumb\_id | Integer | 是 | 类别封面Id\[参考上传图片\] |

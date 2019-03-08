@@ -2,13 +2,14 @@
 
 ## 1.接口描述
 
-##### 本接口（admin/goods/saveGoods）用于添加 / 编辑小程序的电商商品。
+##### 本接口（admin/goods/saveGoods）用于添加 / 编辑小程序的电商商品。\[编辑商品所有字段都传\]
 
 ## 2.输入参数
 
 | 参数名称 | 类型 | 是否必选 | 描述 |
 | :--- | :--- | :--- | :--- |
 | goodsid | Integer | 否 | \(如果是编辑商品的信息需要传\) |
+| beid | Integer | 是 | 店铺ID |
 | title | String | 是 | 商品名称 |
 | goodssn | Integer | 是 | 商品唯一编号\[不能重复\] |
 | pcate | Integer | 是 | 一级分类id |
@@ -45,14 +46,14 @@
 | sku | Integer | 否 | sku编码 |
 | displayorder | Integer | 否 | 排序数字 |
 | thumb\_id | Integer | 否 | 商品封面图ID |
-| goods\_banner | String | 否 | 商品主图\(传参格式\[{"id":"1292269","url":"[https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png","cover":"https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png?imageView2/1/w/80/h/80","active":false,"isThumb":true}\](https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png","cover":"https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png?imageView2/1/w/80/h/80","active":false,"isThumb":true}\)\] |
+| goods\_banner | String | 否 | 商品主图\(传参格式\[{"id":"1292269","url":"\[\[[https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png","cover":"https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png?imageView2/1/w/80/h/80","active":false,"isThumb":true}\]\(https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png","cover":"https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png?imageView2/1/w/80/h/80","active":false,"isThumb":true}\)\]\(https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png","cover":"https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png?imageView2/1/w/80/h/80","active":false,"isThumb":true}\]\(https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png","cover":"https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png?imageView2/1/w/80/h/80","active":false,"isThumb":true}\)\)\](https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png","cover":"https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png?imageView2/1/w/80/h/80","active":false,"isThumb":true}]%28https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png","cover":"https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png?imageView2/1/w/80/h/80","active":false,"isThumb":true}%29]%28https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png","cover":"https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png?imageView2/1/w/80/h/80","active":false,"isThumb":true}]%28https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png","cover":"https://weapp-1253522117.image.myqcloud.com//image/20190125/d871a3bde31a65df.png?imageView2/1/w/80/h/80","active":false,"isThumb":true}%29%29\)\] |
 | goods\_detail\_pic | String | 否 | 商品详情图\(格式同上\) |
 | brand\_id | Integer | 否 | 品牌ID |
 | goodsType | Integer | 是 | 商品类型\(1商品2菜品3内容\) |
 | setting | String | 否 | 展示版底部栏设置 |
-| tags | String | 否 | 商品标签 |
+| tags | String | 否 | 商品标签服务说明\(格式\["标签1","标签2"\]\) |
 | has\_vip\_price | Integer | 否 | 是否有会员价\(0否1是\) |
-| vip\_price | double  | 否 | 会员价 |
+| vip\_price | double | 否 | 会员价 |
 | is\_virtual\_goods | Integer | 否 | 是否虚拟商品 |
 
 ## 3.输出参数
