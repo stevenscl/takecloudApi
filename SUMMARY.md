@@ -22,6 +22,7 @@
   * [查看商品分类的详情](shang-pin-xiang-guan-jie-kou/cha-kan-shang-pin-fen-lei-de-xiang-qing.md)
   * [查看快递列表](shang-pin-xiang-guan-jie-kou/cha-kan-kuai-di-lie-biao.md)
   * [商品上架](shang-pin-xiang-guan-jie-kou/shang-pin-shang-jia.md)
+  * [商品下架](shang-pin-xiang-guan-jie-kou/shang-pin-xia-jia.md)
 * [订单相关接口](ding-dan-xiang-guan-jie-kou.md)
   * [查看订单列表](ding-dan-xiang-guan-jie-kou/cha-kan-ding-dan-lie-biao.md)
   * [查看订单详情](ding-dan-xiang-guan-jie-kou/cha-kan-ding-dan-xiang-qing.md)
