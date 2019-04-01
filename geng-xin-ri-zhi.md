@@ -28,9 +28,9 @@
 * 新增[商品上架](/shang-pin-xiang-guan-jie-kou/shang-pin-shang-jia.md)接口
 * 新增[商品下架](/shang-pin-xiang-guan-jie-kou/shang-pin-xia-jia.md)接口
 
+## 2019-4-01
 
-
-
+* 新增[新用户的回调](/ding-dan-xiang-guan-jie-kou/xin-yong-hu-de-hui-diao.md)接口
 
 
 
