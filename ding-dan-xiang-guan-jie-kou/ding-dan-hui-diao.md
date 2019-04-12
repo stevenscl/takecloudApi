@@ -47,7 +47,10 @@
         "refund_voucher": "",
         "prepay_id": "wx04140956555818a643c2637c1300965916",
         "is_pay": "0",
-        "credit_price": "0.00" 
+        "credit_price": "0.00" ,
+        "credit_coupon_money": "1.00",//用积分抵扣了会有值   用积分抵扣的金额  (积分商城不通用)
+        "integral_deduction": "5" ,  //该笔订单消耗了多少积分      (积分商城不通用)
+        
     }
 }
 ```
