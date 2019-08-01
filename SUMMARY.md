@@ -45,4 +45,6 @@
   * [获取小程序信息](huo-qu-xiao-cheng-xu-xin-xi.md)
   * [获取小程序的管理URL](huo-qu-xiao-cheng-xu-de-guan-li-url.md)
   * [修改小程序名称](xiu-gai-xiao-cheng-xu-ming-cheng.md)
+* 用户相关接口
+  * [用户列表](yong-hu-lie-biao.md)
 
